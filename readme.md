@@ -70,12 +70,5 @@ docker compose down -v
 
 Estructura del Proyecto
 
-.
-├── app-php/
-│   ├── Dockerfile       # (Instrucciones para construir la imagen de PHP con drivers)
-│   ├── healthcheck.php  # (Script que verifica la conexión real a la BD)
-│   └── index.php        # (La aplicación web que muestra los nombres)
-├── docker-compose.yml   # (El "cerebro" que orquesta los servicios, redes y volúmenes)
-├── init.sql             # (Script SQL para crear la tabla 'nombres' y los datos)
-└── .gitignore           # (Ignora archivos que no deben subirse a Git)
+
 
